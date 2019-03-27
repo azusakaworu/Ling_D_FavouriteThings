@@ -1,14 +1,18 @@
 <section id="animes">
     {{#each faves}}
+    
       <div class="fave-container">
         <h3 class="fave-title">{{fave_title}}-{{fave_year}} </h3>
         {{!-- <h3 class="fave-title">{{fave_year}} </h3> --}}
-          <a href="/{{fave_title}}">
-             <img src="/images/{{fave_img}}" alt="fave">
-          </a>
+         
+             
+         <a  href="/{{fave_title}}"><img src="/images/{{fave_img}}" alt="fave"></a>
 
           
-      </div>
+     
+      
+    </div>
+      
     {{/each}}
 
 </section>

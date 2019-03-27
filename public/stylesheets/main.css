@@ -87,6 +87,9 @@ footer {
   border-radius: 0.8rem;
   border-block-end-color: aliceblue; }
 
+#detailImgArea img:hover {
+  opacity: 0.9; }
+
 #ditailTextArea {
   margin: 100px;
   line-height: 2em; }
