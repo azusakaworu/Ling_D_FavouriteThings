@@ -1,11 +1,11 @@
 <section id="heroes">
-    {{#each avatars}}
+    {{#each faves}}
       <div class="hero-container">
-          <a href="/{{name}}">
-             <img src="/images/{{avatar}}" alt="avatar">
+          <a href="/{{fave_title}}">
+             <img src="/images/{{fave_img}}" alt="fave">
           </a>
 
-          <h3 class="hero-name">{{name}}</h3>
+          <h3 class="fave-title">{{fave_title}}</h3>
       </div>
     {{/each}}
 
