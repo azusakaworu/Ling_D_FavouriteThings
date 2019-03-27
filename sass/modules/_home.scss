@@ -5,27 +5,32 @@ html { position: relative; min-height: 100%; }
 body { 
     background: url(/images/linen.png) repeat $bg-color; 
     color: $text-color; 
-    font-size: 14px;
+    font-size: 18px;
     font-family: 'Cormorant Garamond', serif;
     margin-bottom: 50px;
+    // letter-spacing: 1px;
 }
 
 h1, h2, h3, h4, h5, h6 { 
     font-family:  'Poiret One', cursive;
+    
 }
+
+
 
 header { background-color: $bg-color; }
 
 nav {
-    a { float: right; }
+    a { float: left; }
     h1 { 
         font-size: 2rem;
-        padding: 8px 20px;
+        padding: 20px;
         display: inline-block; 
     }
 
-    a { font-size: 1.75rem; padding: 10px 20px 0 0; }
-    a:hover { color: rgb(101, 184, 108); }
+    a { font-size: 1.75rem; padding: 22px 20px 20px 16px;}
+   
+    a:hover { color:pink }
 }
 
 main { padding: 12px 20px; }
@@ -40,26 +45,27 @@ footer {
     padding-top: 1rem;
 }
 
-#heroes { text-align: center; margin-top: 20px; }
+#animes { text-align: center; margin-top: 20px; }
 
-.hero-container { 
-    border-radius: 1rem; 
+.fave-container { 
+    border-radius: 1.2rem; 
     overflow: hidden; 
     display: inline-block; 
     text-align: center;
-    margin: 0 12px 20px;
-    border: 2px solid white;
+    margin: 20px 40px 20px;
+    border: 1px solid white;
     background: $bg-color;
 
-    img { width: 100%; }
+    img { width: 100%;}
+    img:hover{opacity: 0.7;}
 
     h3 { font-size: 1.5rem; padding: 8px;}
 }
 
-.hero-container:last-of-type { margin-bottom: 120px; }
+.fave-container:last-of-type { margin-bottom: 120px; }
 
 
 
 @media screen and (min-width: 1032px) {
-    .hero-container:last-of-type { margin-bottom: 20px; }
+    .fave-container:last-of-type { margin-bottom: 20px; }
 }

@@ -11,7 +11,7 @@ html {
 body {
   background: url(/images/linen.png) repeat white;
   color: black;
-  font-size: 14px;
+  font-size: 18px;
   font-family: 'Cormorant Garamond', serif;
   margin-bottom: 50px; }
 
@@ -22,16 +22,16 @@ header {
   background-color: white; }
 
 nav a {
-  float: right; }
+  float: left; }
 nav h1 {
   font-size: 2rem;
-  padding: 8px 20px;
+  padding: 20px;
   display: inline-block; }
 nav a {
   font-size: 1.75rem;
-  padding: 10px 20px 0 0; }
+  padding: 22px 20px 20px 16px; }
 nav a:hover {
-  color: #65b86c; }
+  color: pink; }
 
 main {
   padding: 12px 20px; }
@@ -45,30 +45,55 @@ footer {
   text-align: center;
   padding-top: 1rem; }
 
-#heroes {
+#animes {
   text-align: center;
   margin-top: 20px; }
 
-.hero-container {
-  border-radius: 1rem;
+.fave-container {
+  border-radius: 1.2rem;
   overflow: hidden;
   display: inline-block;
   text-align: center;
-  margin: 0 12px 20px;
-  border: 2px solid white;
+  margin: 20px 40px 20px;
+  border: 1px solid white;
   background: white; }
-  .hero-container img {
+  .fave-container img {
     width: 100%; }
-  .hero-container h3 {
+  .fave-container img:hover {
+    opacity: 0.7; }
+  .fave-container h3 {
     font-size: 1.5rem;
     padding: 8px; }
 
-.hero-container:last-of-type {
+.fave-container:last-of-type {
   margin-bottom: 120px; }
 
 @media screen and (min-width: 1032px) {
-  .hero-container:last-of-type {
+  .fave-container:last-of-type {
     margin-bottom: 20px; } }
+.detailTitle {
+  letter-spacing: 1px;
+  font-size: 20px; }
+
+#ditailTextArea h3 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 1.8em; }
+
+#detailImgArea img {
+  float: left;
+  margin: 100px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 0.8rem;
+  border-block-end-color: aliceblue; }
+
+#ditailTextArea {
+  margin: 100px;
+  line-height: 2em; }
+
+#detailImgArea h1 {
+  text-align: center; }
+
 a {
   text-decoration: none;
   color: black;

@@ -8,7 +8,7 @@ var connect = require('../utils/sqlConnect');
 /* GET home page. */
 router.get('/', function(req, res, next) {
   //do a database query  name avatar 
-  connect.query(`SELECT fave_title, fave_img FROM tbl_fave`,(err, result)=>{
+  connect.query(`SELECT fave_title, fave_img, fave_year FROM tbl_fave`,(err, result)=>{
     if(err){
       throw err;
       console.log(err);

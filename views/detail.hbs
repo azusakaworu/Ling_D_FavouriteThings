@@ -1,7 +1,18 @@
-<h1>Welcom to {{detailData.fave_title}}'s  page!</h1>
+<div id="detailImgArea">
+    <h1> {{detailData.fave_title}} Introduction Page</h1>
 <img src="/images/{{detailData.fave_img}}" alt="animeimage">
+</div>
 
-<h3>About {{detailData.fave_title}}</h3>
-<h5>{{detailData.fave_year}}</h5> 
+
+
+<div id="ditailTextArea">
+   <h3 class="detailTitle">About {{detailData.fave_title}}</h3>
+
+<h5 class="detailTitle">Published Year:</h5> 
+<p> {{detailData.fave_year}}</p>
+<h5 class="detailTitle">Author:</h5>
 <p>{{detailData.fave_auth}}</p>
-<p>{{detailData.fave_des}}</p>
+
+<h5 class="detailTitle">Introduction:</h5>
+<p> {{detailData.fave_des}}</p> 
+</div>
