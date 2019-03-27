@@ -3,15 +3,15 @@
 html { position: relative; min-height: 100%; }
 
 body { 
-    background: url(/images/dark-honeycomb.png) repeat $bg-color; 
+    background: url(/images/linen.png) repeat $bg-color; 
     color: $text-color; 
     font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Cormorant Garamond', serif;
     margin-bottom: 50px;
 }
 
 h1, h2, h3, h4, h5, h6 { 
-    font-family: 'Permanent Marker', cursive;
+    font-family:  'Poiret One', cursive;
 }
 
 header { background-color: $bg-color; }
@@ -58,16 +58,7 @@ footer {
 
 .hero-container:last-of-type { margin-bottom: 120px; }
 
-.marvel-logo { 
-    width: 200px; 
-    position: absolute; 
-    bottom: 40px; 
-    z-index: -1; 
-    left: 0; 
-    right: 0; 
-    display: block;
-    margin: 0 auto;
-}
+
 
 @media screen and (min-width: 1032px) {
     .hero-container:last-of-type { margin-bottom: 20px; }
